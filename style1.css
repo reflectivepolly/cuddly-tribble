@@ -466,7 +466,11 @@ body.no-scroll {
 }
 
 /* Updated Mobile Carousel Overrides (No !important) */
-@media (max-width: 649px) {
+@media (max-width: 1024px) {
+  .sponsors {
+    min-height: 600px; /* Use a fixed pixel height instead of vh to stop the zooming glitch */
+  }
+  
   .tier {
     display: contents;
   }
@@ -837,3 +841,4 @@ body.no-scroll {
 .footer-link:active {
   transform: translateY(-1.2rem);
 }
+
