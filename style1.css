@@ -652,13 +652,6 @@ body.no-scroll {
 }
 
 .track-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
-  gap: 3rem;
-  justify-content: center;
-}
-
-.track-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
@@ -841,4 +834,5 @@ body.no-scroll {
 .footer-link:active {
   transform: translateY(-1.2rem);
 }
+
 
