@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arcadia Hackathon</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Jaro"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <img src="websitelogo.png" alt="Hackathon Logo" class="logo" />
+  <nav class="main-nav">
+    <ul class="main-nav-list">
+      <li><a href="index.html">HOME</a></li>
+      <!-- <li><a href="register.html">REGISTER</a></li> -->
+      <li><a href="tba.html">SCHEDULE</a></li>
+      <li><a href="tracks.html">TRACKS</a></li>
+      <li><a href="index.html#faq">FAQS</a></li>
+      <li><a href="index.html#contact" class="btn">CONTACT</a></li>
+    </ul>
+  </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon name="menu-outline" class="icon-mobile-nav"></ion-icon>
+        <ion-icon name="close-outline" class="icon-mobile-nav"></ion-icon>
+    </header>
+
+    <!-- GENERAL TRACKS -->
+    <section class="tracks general">
+      <h2>General Tracks</h2>
+      <h3>
+        Prizes will be revealed during the open ceremony of Firebird Hacks!
+      </h3>
+
+      <div class="track-grid">
+        <div class="track-card red">
+          <h4>Best Design</h4>
+          <p>
+            Visually stunning with an intuitive user experience. This project 
+            mastered the art of aesthetics and usability.
+          </p>
+          <span>Prize: TBA</span>
+        </div>
+
+        <div class="track-card yellow">
+          <h4>Best Tech</h4>
+          <p>
+            Under the hood excellence. This project demonstrated complex 
+            technical implementation and clean code.
+          </p>
+          <span>Prize: TBA</span>
+        </div>
+        <div class="track-card blue">
+          <h4>Most Innovative</h4>
+          <p>
+            Pushed boundaries and redefined creativity. This project dared to
+            be different and succeeded brilliantly.
+          </p>
+          <span>Prize: TBA</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPONSORED TRACKS -->
+    <!-- <section class="tracks sponsored">
+      <h2>Sponsored Tracks</h2>
+      <h3>Tracks provided by our lovely sponsors!</h3>
+
+      <div class="track-grid">
+        <div class="track-card blue">
+          <h4>1st Place Best Overall</h4>
+          <p>
+            Stole the show with style, heart, and flawless delivery. A clear
+            favorite that hit every mark.
+          </p>
+          <span>Prize: TBA</span>
+        </div>
+        <div class="track-card blue">
+          <h4>2nd Place Best Overall</h4>
+          <p>
+            Brought the energy and left a strong impression. Just a step behind
+            the top, but full of standout moments.
+          </p>
+          <span>Prize: TBA</span>
+        </div>
+        <div class="track-card blue">
+          <h4>3rd Place Best Overall</h4>
+          <p>
+            Full of personality and charm, this one carved out its spot in the
+            top three with ease!
+          </p>
+          <span>Prize: TBA</span>
+        </div>
+        <div class="track-card blue">
+          <h4>3rd Place Best Overall</h4>
+          <p>
+            Full of personality and charm, this one carved out its spot in the
+            top three with ease!
+          </p>
+          <span>Prize: TBA</span>
+        </div>
+        <div class="track-card blue">
+          <h4>3rd Place Best Overall</h4>
+          <p>
+            Full of personality and charm, this one carved out its spot in the
+            top three with ease!
+          </p>
+          <span>Prize: TBA</span>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="logos-container">
+        <ul class="footer-logos">
+          <li>
+            <a href="" class="footer-link"
+              ><ion-icon name="logo-github"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="" class="footer-link"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="" class="footer-link"><ion-icon name="mail"></ion-icon></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+   <script>
+    const btnNav = document.querySelector(".btn-mobile-nav");
+    const header = document.querySelector("header");
+
+    btnNav.addEventListener("click", function () {
+      header.classList.toggle("nav-open");
+    });      
+    
+  // Mobile navigation toggle
+  </script>
+  </body>
+</html>
