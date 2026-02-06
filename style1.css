@@ -25,6 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  overflow-x: hidden; /* Prevents tiny horizontal shifts that cause jitter */
 }
 
 main {
@@ -470,7 +471,7 @@ body.no-scroll {
   .sponsors {
     min-height: 600px; /* Use a fixed pixel height instead of vh to stop the zooming glitch */
   }
-  
+
   .tier {
     display: contents;
   }
@@ -613,11 +614,10 @@ body.no-scroll {
 
 /* TRACKS PAGE */
 .tracks {
-  padding: 3rem 2rem 11rem 2rem;
+  padding: 3rem 2rem 5rem 2rem;
   text-align: center;
   background: #870203;
-
-  flex: 1;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -650,6 +650,7 @@ body.no-scroll {
   font-weight: bold;
   font-size: clamp(0.5rem, 5vw, 1.6rem);
 }
+
 
 .track-grid {
   display: flex;
@@ -834,6 +835,8 @@ body.no-scroll {
 .footer-link:active {
   transform: translateY(-1.2rem);
 }
+
+
 
 
 
